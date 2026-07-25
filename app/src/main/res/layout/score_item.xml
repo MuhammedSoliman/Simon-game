@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/score_item_background">
+
+    <TextView
+        android:id="@+id/rankText"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:textColor="#FFD700"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:background="@drawable/rank_circle_background"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/playerNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/rankText"
+        android:layout_toStartOf="@id/scoreText"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFD700"
+        android:fontFamily="sans-serif-medium"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout> 
